@@ -1,0 +1,3 @@
+import { InteriorPage } from "../ui";
+export const metadata = { title: "About" };
+export default function About() { return <InteriorPage eyebrow="About TheMaskedBit" title="We build thoughtful things." intro="TheMaskedBit is a technology and creative company working across tools, media and betterment."><section className="about-grid section-pad"><h2>Useful before impressive.</h2><div><p>We believe the best technology earns a place in people’s lives by solving something real.</p><p>Today, that belief is taking shape through NestContact—our first major live product. The rest is still being explored, carefully and in the open.</p></div></section></InteriorPage>; }
