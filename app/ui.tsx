@@ -11,7 +11,7 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
-  return <footer className="footer section-pad"><div className="footer-brand"><BrandMark /><h2>TheMaskedBit</h2><p>Tools · Media · Betterment</p></div><div className="footer-links"><Link href="/tools">NestContact</Link>{navigation.map(i => <Link href={i.href} key={i.href}>{i.label}</Link>)}<Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link></div><div className="footer-bottom"><span>© {new Date().getFullYear()} TheMaskedBit</span><span>Built thoughtfully.</span></div></footer>;
+  return <footer className="footer section-pad"><div className="footer-brand"><BrandMark /><h2>TheMaskedBit</h2><p>Tools · Media · Betterment</p></div><div className="footer-links"><a href="https://nestcontact.com">NestContact ↗</a>{navigation.map(i => <Link href={i.href} key={i.href}>{i.label}</Link>)}<Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link></div><div className="footer-bottom"><span>© {new Date().getFullYear()} TheMaskedBit</span><span>Built thoughtfully.</span></div></footer>;
 }
 
 export function PageShell({ children }: { children: ReactNode }) { return <><SiteHeader />{children}<SiteFooter /></>; }

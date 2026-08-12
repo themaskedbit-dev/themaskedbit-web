@@ -22,7 +22,7 @@ export default function Home() {
             <p className="product-line">Know who matters.<br />Know what’s next.</p>
             <p className="muted">A simpler way to manage the people, conversations and relationships that matter to you.</p>
             <div className="actions">
-              <Link className="button dark" href="/tools">Explore NestContact</Link>
+              <a className="button dark" href="https://nestcontact.com">Explore NestContact ↗</a>
               <a className="button light" href="https://nestcontact.com">Get the app ↗</a>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Home() {
           <div className="story-side">
             <p>NestContact brings contacts, conversations, notes, follow-ups and important moments together in one calm place.</p>
             <p>It works for individuals and adapts to professionals and small businesses—without becoming a traditional, complicated CRM.</p>
-            <Link className="text-link" href="/tools">Discover NestContact <span>→</span></Link>
+            <a className="text-link" href="https://nestcontact.com">Discover NestContact <span>↗</span></a>
           </div>
         </section>
 
@@ -57,7 +57,7 @@ export default function Home() {
         <section className="ecosystem section-pad">
           <div className="section-intro"><p className="eyebrow">The ecosystem</p><h2>Explore TheMaskedBit</h2></div>
           <div className="tiles">
-            <Link href="/tools" className="tile tile-green"><span>01 / Tools</span><h3>Products that solve everyday problems.</h3><b>NestContact →</b></Link>
+            <a href="https://nestcontact.com" className="tile tile-green"><span>01 / Tools</span><h3>Products that solve everyday problems.</h3><b>NestContact ↗</b></a>
             <Link href="/media" className="tile tile-amber"><span>02 / Media</span><h3>Ideas worth sharing.</h3><b>Coming together →</b></Link>
             <Link href="/betterment" className="tile tile-violet"><span>03 / Betterment</span><h3>Technology for better living.</h3><b>In exploration →</b></Link>
           </div>
