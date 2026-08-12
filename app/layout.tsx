@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://themaskedbit.com"),
   title: { default: "TheMaskedBit — Technology. Ideas. Better living.", template: "%s — TheMaskedBit" },
   description: "TheMaskedBit builds thoughtful products and experiences across tools, media and betterment.",
+  icons: { icon: "/tmblogo.png", shortcut: "/tmblogo.png", apple: "/tmblogo.png" },
   openGraph: { title: "TheMaskedBit", description: "Technology. Ideas. Better living.", url: "https://themaskedbit.com", siteName: "TheMaskedBit", type: "website" },
 };
 

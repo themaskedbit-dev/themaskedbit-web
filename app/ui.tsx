@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { navigation } from "./data";
 
 export function BrandMark({ large = false }: { large?: boolean }) {
-  return <span className={`brand-mark ${large ? "brand-mark-large" : ""}`} aria-label="TheMaskedBit"><i /><i /><i /><i /></span>;
+  return <span className={`brand-mark ${large ? "brand-mark-large" : ""}`}><Image src="/tmblogo.png" alt="TheMaskedBit" width={large ? 768 : 96} height={large ? 768 : 96} priority={!large} /></span>;
 }
 
 export function SiteHeader() {
