@@ -84,3 +84,15 @@ button { font:inherit; }
 .vision-story h2{margin:130px 0 45px;font-size:clamp(42px,5vw,76px);font-weight:500;line-height:.95;letter-spacing:-.06em}
 .vision-story strong{display:block;margin-top:100px;color:#fff;font-size:clamp(54px,7vw,108px);font-weight:500;line-height:.95;letter-spacing:-.07em}
 @media(max-width:800px){.vision{grid-template-columns:1fr;padding-top:90px;padding-bottom:100px}.vision-mark{position:static}.vision-mark .brand-mark{width:180px;height:180px}.vision-story{margin-top:50px}.vision-story p{font-size:16px}.vision-story .vision-beat{margin:60px 0}.vision-story h2{margin-top:90px}.vision-story strong{margin-top:75px}}
+
+.tools-list{padding-top:80px;padding-bottom:150px;background:#fff}
+.tool-row{display:grid;grid-template-columns:70px 1fr 1fr 130px;gap:32px;align-items:center;min-height:230px;border-top:1px solid #1112}
+.tool-row:last-child{border-bottom:1px solid #1112}
+a.tool-row{transition:background-color .2s}
+a.tool-row:hover{background:#f7f7f5}
+.tool-number{color:#888;font-size:11px}
+.tool-row .eyebrow{margin-bottom:16px;color:#168a42}
+.tool-row h2{margin:0;font-size:clamp(42px,5vw,76px);font-weight:500;line-height:.95;letter-spacing:-.06em}
+.tool-row>p{max-width:400px;color:var(--muted);line-height:1.7}
+.tool-row>b{font-size:11px;text-transform:uppercase;letter-spacing:.1em}
+@media(max-width:800px){.tool-row{grid-template-columns:32px 1fr;gap:16px;padding:34px 0}.tool-row>p,.tool-row>b{grid-column:2;margin:0}.tool-row h2{font-size:44px}}

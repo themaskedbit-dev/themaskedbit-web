@@ -1,5 +1,22 @@
 export const products = [
-  { name: "NestContact", area: "Tools", status: "Available now", href: "https://nestcontact.com" },
+  {
+    name: "NestContact",
+    kind: "Product",
+    description: "A calmer way to manage contacts, conversations, notes and follow-ups.",
+    href: "https://nestcontact.com",
+  },
+  {
+    name: "ConceptOwl",
+    kind: "Service project",
+    description: "An app for delivering IIT coaching classes online.",
+    href: null,
+  },
+  {
+    name: "Baladiyeti",
+    kind: "Service project",
+    description: "A municipal services app created for Muscat Municipality.",
+    href: "https://play.google.com/store/apps/details?id=mm.gov.baladiyeti&hl=en",
+  },
 ] as const;
 
 export const navigation = [

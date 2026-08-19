@@ -1,3 +1,36 @@
-import { InteriorPage, NestContactVisual } from "../ui";
+import { products } from "../data";
+import { InteriorPage } from "../ui";
+
 export const metadata = { title: "Tools" };
-export default function Tools() { return <InteriorPage eyebrow="01 / Tools" title="Useful technology for everyday problems." intro="We make software that feels calm, capable and easy to live with."><section className="route-feature section-pad"><div><p className="eyebrow">Available now</p><h2>NestContact</h2><p>A simpler way to manage the people, conversations and relationships that matter to you.</p><a className="button dark" href="https://nestcontact.com">Explore NestContact ↗</a></div><NestContactVisual /></section></InteriorPage>; }
+
+export default function Tools() {
+  return (
+    <InteriorPage
+      eyebrow="01 / Tools"
+      title="Technology built for real needs."
+      intro="Tools includes our own products and selected service projects created for organisations."
+    >
+      <section className="tools-list section-pad">
+        {products.map((item, index) => {
+          const content = (
+            <>
+              <span className="tool-number">0{index + 1}</span>
+              <div>
+                <p className="eyebrow">{item.kind}</p>
+                <h2>{item.name}</h2>
+              </div>
+              <p>{item.description}</p>
+              <b>{item.href ? "View project ↗" : "Service project"}</b>
+            </>
+          );
+
+          return item.href ? (
+            <a className="tool-row" href={item.href} key={item.name}>{content}</a>
+          ) : (
+            <article className="tool-row" key={item.name}>{content}</article>
+          );
+        })}
+      </section>
+    </InteriorPage>
+  );
+}
