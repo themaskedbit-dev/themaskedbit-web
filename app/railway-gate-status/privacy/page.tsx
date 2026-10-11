@@ -46,8 +46,8 @@ export default function RailwayGateStatusPrivacy() {
           <section>
             <h2>Who else is involved</h2>
             <ul>
-              <li><strong>Oracle Cloud Infrastructure</strong> hosts our server, and therefore processes requests in transit on our behalf.</li>
-              <li><strong>railradar.in</strong> is the source of live train running data. Our server queries it; <strong>your device never contacts it</strong>, and no information about you is passed to it.</li>
+              <li>Server is hosted in a PaaS solution, and requests in transit are processed there on your behalf.</li>
+              <li>Live train running data is scrapped from the web. Our server queries the sources; <strong>your device never contacts it</strong>, and no information about you is passed to it.</li>
               <li><strong>Where is My Train</strong>—if you tap &ldquo;Check WIMT&rdquo;, the app opens that app (or its website) at a page for the train number you were viewing. Once you leave, what happens is governed by their privacy policy, not this one. The app also copies a train number to your clipboard when you tap &ldquo;Copy&rdquo;, which stays on your device.</li>
             </ul>
             <p>We do not use any analytics or advertising provider, so there are none to list.</p>
