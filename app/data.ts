@@ -1,9 +1,9 @@
 export const products = [
   {
-    name: "NestContact",
+    name: "KeptSo",
     kind: "Product",
     description: "A calmer way to manage contacts, conversations, notes and follow-ups.",
-    href: "https://nestcontact.com",
+    href: "https://keptso.com",
   },
   {
     name: "ConceptOwl",

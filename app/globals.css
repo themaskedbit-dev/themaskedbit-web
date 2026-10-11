@@ -15,7 +15,7 @@ button { font:inherit; }
 .brand-mark-large { width:96px; height:96px; opacity:.11; }
 .site-header nav { display:flex; align-items:center; gap:32px; font-size:12px; }
 .site-header nav a { transition:opacity .2s; }.site-header nav a:hover { opacity:.5; }
-.nest-link { padding:14px 18px; border-left:1px solid #1112; font-weight:700; }
+.product-link { padding:14px 18px; border-left:1px solid #1112; font-weight:700; }
 .mobile-menu { display:none; }
 .hero { min-height:100svh; padding-top:160px; padding-bottom:75px; position:relative; display:grid; grid-template-columns:1fr 44%; align-items:center; overflow:hidden; }
 .hero-copy { position:relative; z-index:2; }

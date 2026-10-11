@@ -2,7 +2,7 @@ import Link from "next/link";
 import { BrandMark, PageShell } from "./ui";
 
 const pillars = [
-  { number: "01", title: "Tools", description: "Products and service projects built for real needs.", status: "NestContact · ConceptOwl · Baladiyeti", href: "/tools", tone: "green" },
+  { number: "01", title: "Tools", description: "Products and service projects built for real needs.", status: "KeptSo · ConceptOwl · Baladiyeti", href: "/tools", tone: "green" },
   { number: "02", title: "Media", description: "Ideas and stories worth understanding.", status: "Coming soon", href: "/media", tone: "amber" },
   { number: "03", title: "Betterment", description: "Thoughtful technology for everyday wellness.", status: "Coming soon", href: "/betterment", tone: "violet" },
 ] as const;
